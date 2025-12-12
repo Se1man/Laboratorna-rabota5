@@ -73,6 +73,15 @@ font-size: 50px;
  border-radius: 15px;
  font-weight: bold;
 }
+.button1:hover {
+  background-color: purple;
+}
+.button1 {
+transition-property: background;
+transition-duration: 0.3s;
+transition-timing-function: ease;
+transition-delay: 0.2s;
+}
 .main2{
   background: #1B2234;
   padding: 100px;
